@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pr-clr {
+  color: #81c408;
+}
+
+.bg-primary-clr {
+  background-color: #ffb524;
+}
+
+.backdrop {
+  background-blend-mode: screen;
+}
+
+.border-warnings {
+    border-color: #ffb524 !important;
+}
+
+.nav-pills .nav-link.active{
+  color: white !important;
+  background-color: #81c408 !important;
+}
+
+.container-fluid-img {
+    background-image: url(/img/hero-img.jpg);
+}
+
+.img-scale:hover {
+   transform:scale(1.2) ;
+   overflow: hidden;
+   transition: 0.5s;
+   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+   -webkit-transform:scale(1.2) ;
+   -moz-transform:scale(1.2) ;
+   -ms-transform:scale(1.2) ;
+   -o-transform:scale(1.2) ;
+}
+
+.badge-top-left {
+    z-index: 99;
+}
