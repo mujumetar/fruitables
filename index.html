@@ -17,54 +17,59 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid d-flex justify-content-between align-items-center">
-        <a class="navbar-brand" href="#">
-          <h1 class="pr-clr fw-bolder">Fruitables</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto ">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Shop Detail</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
+  <header>
+    <div class="container-fluid position-fixed top-0 bg-light shadow z-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+              <h1 class="pr-clr fw-bolder">Fruitables</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-current="page">Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <p class="border rounded-circle p-3 w-auto m-2"><i class="ri-search-line"></i></p>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">Shop Detail</a>
+                </li>
 
-          </form>
-        </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="-1" aria-current="page">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <p class="border rounded-circle p-3 w-auto m-2"><i class="ri-search-line"></i></p>
+
+              </form>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
-  </div>
+    </div>
+  </header>
 
   <div class="container-fluid-img container-fluid">
     <div class="container">
@@ -185,14 +190,18 @@
         aria-labelledby="pills-home-tab">
         <div class="container">
           <div class="row gy-lg-4 gy-md-4 gy-sm-4">
-            <div class="col-lg-3 col-md-6 col-sm-12 overflow-hidden">
+            <div class="col-lg-3 col-md-6 col-sm-12  fade-in">
               <div
-                class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                class=" card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+
+
+                <div class="div border  overflow-hidden">
+                  <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale" alt="grapes">
+                </div>
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -210,14 +219,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-in">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -235,14 +248,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-in">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-4.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-4.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -260,14 +277,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-in">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-3.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-3.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -285,14 +306,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-out">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -310,14 +335,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-out">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -335,14 +364,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-out">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-4.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-4.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -360,14 +393,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-out">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -394,14 +431,18 @@
         <div class="container">
           <div class="row gy-lg-4 gy-md-4 gy-sm-4">
 
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-in">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -419,14 +460,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-up">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -454,14 +499,18 @@
         <div class="container">
           <div class="row gy-lg-4 gy-md-4 gy-sm-4">
 
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-up">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-2.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -479,14 +528,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-out">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-4.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-4.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -504,14 +557,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-in">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -529,14 +586,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 fade-up">
               <div
                 class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
                 style="width: 100%;">
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -571,7 +632,11 @@
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/grapes.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -596,7 +661,11 @@
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -621,7 +690,11 @@
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-3.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-3.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -655,7 +728,11 @@
                 <div class="badge-top-left position-absolute top-0 start-0">
                   <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
                 </div>
-                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                <div class="div border  overflow-hidden">
+
+                  <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                </div>
+
                 <div class="card-body text-center ">
                   <h4 class="card-title">Grapes</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
@@ -682,26 +759,86 @@
   <!-- ----------------------------------------------------------------------------------------- -->
 
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12 border">
-        <div class="offers">
-          <p>fresh apples 20% of</p>
+    <div class="row g-sm-3 g-md-4 g-lg-5">
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="features p-0 border-warnings rounded-4">
+          <div class="img-fluid">
+            <img src="/img/featur-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="offers position-relative p-5 rounded-4 bg-primary-clr ">
+            <div
+              class="bg-feature position-absolute top-0 start-50 translate-middle  d-flex justify-content-center flex-column align-items-center py-4 px-2 rounded-4">
+              <h4 class="fs-3 fw-bolder">fresh apples</h4>
+              <h5 class="fs-5 text-white fw-bolder">20% Off</h5>
+            </div>
+
+          </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 border">
-        <div class="offers">
-          <p>fresh apples 20% of</p>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="features p-0 border-warnings rounded-4">
+          <div class="img-fluid">
+            <img src="/img/featur-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="offers position-relative p-5 rounded-4 bg-primary-clr ">
+            <div
+              class="bg-feature position-absolute top-0 start-50 translate-middle  d-flex justify-content-center flex-column align-items-center py-4 px-2 rounded-4">
+              <h4 class="fs-3  fw-bolder">fresh apples</h4>
+              <h5 class="fs-5 text-white fw-bolder">20% Off</h5>
+            </div>
+
+          </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 border">
-        <div class="offers">
-          <p>fresh apples 20% of</p>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div class="features p-0 border-warnings rounded-4">
+          <div class="img-fluid">
+            <img src="/img/featur-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="offers position-relative p-5 rounded-4 bg-primary-clr ">
+            <div
+              class="bg-feature position-absolute top-0 start-50 translate-middle  d-flex justify-content-center flex-column align-items-center py-4 px-2 rounded-4">
+              <h4 class="fs-3 fw-bolder">fresh apples</h4>
+              <h5 class="fs-5 text-white fw-bolder">20% Off</h5>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
+
+  </div>
   </div>
 
-  <div class="container">
+
+  <div class="bg-primary-clr container-fluid my-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 my-5 py-5 d-flex justify-content-center align-items-center flex-column">
+          <div class="primarycolor  ">
+            <h1 class="fs-1 fw-bolder text-white my-4">
+              Fresh Exotic Fruits
+
+            </h1>
+            <h2 class="fs-2 sec-clr fw-bold my-3">
+              Fresh Exotic Fruits
+
+            </h2>
+            <p class="sec-clr">The generated Lorem Ipsum is therefore always free from repetition injected humour, or
+              non-characteristic words etc.</p>
+            <button class="btn btn-outline-success ">Buy</button>
+          </div>
+
+        </div>
+        <div class="col-lg-6 col-md-12  p-lg-5 p-md-3 p-sm-1">
+          <div class="img-fluid">
+            <img src="/img/baner-1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
