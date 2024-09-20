@@ -2,15 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .pr-clr {
   color: #81c408;
 }
 
+.bg-primary-clrs {
+  margin: auto;
+  background-color: #ffb524;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+
 .bg-primary-clr {
   background-color: #ffb524;
+
+}
+
+.bg-primary-clrs:before{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+  background-color: #ffb524;
+  bottom:-55px;
+  /*rotate: 45deg;
+  */left: 50%;
+  rotate: 45deg;
+  transform:translate(-89%, -27%);
+  -webkit-transform:translate(-89%, -27%);
+  -moz-transform:translate(-89%, -27%);
+  -ms-transform:translate(-89%, -27%);
+  -o-transform:translate(-89%, -27%);
 }
 
 .backdrop {
@@ -42,11 +73,16 @@
 }
 
 .badge-top-left {
-  z-index: 99;
+  z-index: 2;
 }
 
-.bg-feature {
+.bg-feature1 {
   background-color: #81c408;
+}
+
+
+.bg-feature2 {
+  background-color: #45595b;
 }
 
 .sec-clr {
@@ -75,8 +111,8 @@
 }
 
 .fade-out {
-  animation: fadeout 1s ease-in-out;
-  -webkit-animation: fadeout 1s ease-in-out;
+  animation: fadeout 0.4s ease-in-out;
+  -webkit-animation: fadeout 0.4s ease-in-out;
 }
 
 @keyframes fadeout {
@@ -99,8 +135,8 @@
 }
 
 .fade-up {
-  animation: fadeup 1s ease-in-out;
-  -webkit-animation: fadeup 1s ease-in-out;
+  animation: fadeup 0.4s ease-in-out;
+  -webkit-animation: fadeup 0.4s ease-in-out;
 }
 
 @keyframes fadeup {
@@ -133,4 +169,42 @@
     opacity: 100;
    
   }
+}
+
+.services {
+  background-color: #f4f6f8;
+}
+
+footer {
+  background-color: #45595b;
+}
+
+.subscribe {
+  height: 50px;
+}
+
+.anchor-text {
+  color: #8aa7ad;
+  margin: 5px 0px;
+}
+
+.anchor-hover:hover {
+  color:#81c408;
+}
+
+.soc-icons {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.soc-icons:hover {
+  color: black;
+  background-color:#81c408;
+}
+
+.ri-team-fill {
+  font-size: 6rem;
 }
