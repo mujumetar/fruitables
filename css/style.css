@@ -222,10 +222,10 @@ footer {
 .container-img {
   background-image: url(/img/cart-page-header-img.jpg);
 }
-
+/* 
 .margin-top {
   margin-top: 100px;
-}
+} */
 
 .breadcrumb-item > a {
   color: #81b704;
