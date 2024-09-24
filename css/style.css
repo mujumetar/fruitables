@@ -245,3 +245,7 @@ footer {
   padding: 5px 10px;
   border: 1px solid gainsboro;
 }
+
+.slick-prev {
+  border: 1px solid red;
+}
