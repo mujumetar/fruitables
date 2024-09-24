@@ -89,6 +89,10 @@
   color: #45595b;
 }
 
+.sec-clr-bg {
+  background-color: #45595b;
+}
+
 .fade-in {
   animation: fadein 0.4s ease-in-out;
 }
@@ -207,4 +211,37 @@ footer {
 
 .ri-team-fill {
   font-size: 6rem;
+}
+
+@media (min-width:765px) {
+  .position-absolute {
+    position: static ;
+  }
+}
+
+.container-img {
+  background-image: url(/img/cart-page-header-img.jpg);
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.breadcrumb-item > a {
+  color: #81b704;
+  text-decoration: none;
+}
+
+.img-size {
+  height: 100px;
+  width: 100px;
+}
+
+.coupon {
+  height: 40px;
+}
+
+.form-inp {
+  padding: 5px 10px;
+  border: 1px solid gainsboro;
 }
