@@ -314,3 +314,10 @@ footer {
 .fs-100 {
   font-size: 100%;
 } 
+
+.pagination > li> a{
+  border: 1px solid red;
+  margin: 0px 4px;
+  color: red;
+  border-radius: 10px;
+}
